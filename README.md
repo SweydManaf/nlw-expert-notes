@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  NWL expert notes
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## A interative webpage to take notes writing and recording audios using technologies like <a href="https://vitejs.dev/">vitejs<a> and some tools like <a href="https://tailwindcss.com/">tailwind CSS<a>, <a href="https://sonner.emilkowal.ski/">sooner <a>, <a href="https://lucide.dev/">lucide-react <a>.
+#
+  <h1 align="center"> <a href="nlw-expert-notes-eight-peach.vercel.app/">Check the aplication<a></h1>
+    
+<p align="center">
+  <img src="https://github.com/SweydManaf/nlw-expert-notes/blob/master/public/nlw-expert-notes-preview.png" width="900" />
+</p>
 
-Currently, two official plugins are available:
+## Building
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/SweydManaf/nlw-expert-notes.git
+$ cd nlw-expert-notes
+$ npm i
+$ npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To learn more about Next.js, take a look at the following resources:
+
+- [Vitejs Documentation](https://vitejs.dev/guide/) - learn about vitejs features and API.
+- [Learn Tailwind css](https://tailwindcss.com/docs/installation) - an interactive tailwind css tutorial.
+
