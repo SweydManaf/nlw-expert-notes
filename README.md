@@ -4,7 +4,7 @@
 
 ## A interative webpage to take notes writing and recording audios using technologies like <a href="https://vitejs.dev/">vitejs<a> and some tools like <a href="https://tailwindcss.com/">tailwind CSS<a>, <a href="https://sonner.emilkowal.ski/">sooner <a>, <a href="https://lucide.dev/">lucide-react <a>.
 #
-  <h1 align="center"> <a href="nlw-expert-notes-eight-peach.vercel.app/">Check the aplication<a></h1>
+  <h1 align="center"> <a href="nlw-expert-notes-sweyd.vercel.app/">Check the aplication<a></h1>
     
 <p align="center">
   <img src="https://github.com/SweydManaf/nlw-expert-notes/blob/master/public/nlw-expert-notes-preview.png" width="900" />
